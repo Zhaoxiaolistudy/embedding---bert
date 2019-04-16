@@ -1,0 +1,14 @@
+从 Word Embedding 到 ELMO 到 GPT 再到 BERT，
+
+  https://mp.weixin.qq.com/s/FHDpx2cYYh9GZsa5nChi4g  张俊林  AI科技大本营 作者讲的超详细，
+
+引用作者的总结：
+   
+   Bert 其实和 ELMO 及 GPT 存在千丝万缕的关系，
+  
+   比如如果我们把 GPT 预训练阶段换成双向语言模型，那么就得到了 Bert；
+   
+   而如果我们把 ELMO 的特征抽取器换成 Transformer，那么我们也会得到 Bert。
+   
+   所以你可以看出：
+               Bert 最关键两点，一点是特征抽取器采用 Transformer；第二点是预训练的时候采用双向语言模型。
